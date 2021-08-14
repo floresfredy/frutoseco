@@ -4,9 +4,7 @@ namespace demomvc.Models
     {
         public string Correo { get; set; }
         public string Telefono { get; set; }
-
         public string Nombre {get; set;}
-
-        public string Comentarios {get; set; }
+        public string Comentario {get; set; }
     }
 }
