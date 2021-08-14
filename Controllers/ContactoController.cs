@@ -11,6 +11,11 @@ namespace demomvc.Controllers
             return View();
         }
 
+        public IActionResult Create()
+        {
+            ViewData["Message"] = "El contacto ya esta registrado";
+            return View("Index");
+        }
 
     }
 }
