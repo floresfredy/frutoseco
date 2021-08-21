@@ -1,10 +1,15 @@
+using System;
 namespace demomvc.Models
 {
     public class Contacto
     {
-        public string Correo { get; set; }
-        public string Telefono { get; set; }
-        public string Nombre {get; set;}
-        public string Comentario {get; set; }
+        public string Id { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Name {get; set;}
+        public string Comment {get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Gender { get; set; }
+
     }
 }
