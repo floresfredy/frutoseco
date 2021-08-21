@@ -11,5 +11,8 @@ namespace demomvc.Data
         {
 
         }
+
+        public DbSet<demomvc.Models.Contacto> DataContactos { get; set; }
+
     }
 }
